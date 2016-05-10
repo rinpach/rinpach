@@ -1,7 +1,5 @@
-# coding: utf-8
-x = 0
-while x < 1:
-    n=input('整数を入れて下さい＞')
+while True:
+    n = int(input('整数を入れて下さい＞'))
     if n%15==0:
         print("Fizz Buzz")
     elif n%3==0:
@@ -11,5 +9,5 @@ while x < 1:
     else:
         print(n)
     a=input('終了：1 続行：0＞')
-    if a==1:
-		break
+    if a == "1":
+        break
