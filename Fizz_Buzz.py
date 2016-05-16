@@ -1,4 +1,3 @@
-# coding: utf-8
 x = 0
 while x < 1:
     n=input('整数を入れて下さい＞')
@@ -12,4 +11,4 @@ while x < 1:
         print(n)
     a=input('終了：1 続行：0＞')
     if a==1:
-		break
+        break
