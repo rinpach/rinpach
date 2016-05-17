@@ -1,8 +1,8 @@
 n=100
-while n >=10:
+while n >=4:
     print(n)
     n-=1
 while n >=0:
-    print('!', end = "")
-    print(n)
+    print(n,end="")
+    print("!")
     n-=1
