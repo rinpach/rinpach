@@ -1,5 +1,4 @@
-# coding: utf-8
-_w =raw_input('>')
+_w =input('>')
 if _w =="せんだ":
 	print("みつお")
 elif _w =="みつお":
