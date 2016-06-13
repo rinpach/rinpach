@@ -8,3 +8,4 @@ for m in range(_n):
         _n/=_o
     else:
         _o+=1
+a=input('push any key')
